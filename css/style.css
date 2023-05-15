@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#header:not(.sticky-header) #logo a {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-link.click-scroll {
+    text-align: center;
+    position: static;
+    float: right;
+}
+
+.collapse.navbar-collapse {
+    text-align: left;
+}
+
+.col-lg-10.col-12 {
+    width: 100%;
+}
+
+.col-lg-6.col-12 {
+    width: 100%;
+}
